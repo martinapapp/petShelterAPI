@@ -1,10 +1,10 @@
 {
-  "name": "s0utbdd900",
+  "name": "pet-shelter-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "start": "npx tsc && node dist/index.js"
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",

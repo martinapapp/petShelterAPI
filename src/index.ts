@@ -3,7 +3,7 @@ import type {Express, Request, Response} from 'express'
 import cors from 'cors'
 import {petRouter} from './routes/pets.routes'
 
-const PORT = 8000
+const PORT =  process.env.PORT || 8000
 const app:Express = express()
 
 app.use(cors())
